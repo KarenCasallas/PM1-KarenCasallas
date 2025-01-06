@@ -1,0 +1,184 @@
+body {
+    background-image:url("../assets/img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+p {
+    margin: auto;
+    width: 70vw;
+    text-align: justify;
+    padding: 1em 0em 2em 0em;
+}
+
+footer{
+    background-image: url("../assets/img/img1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    margin: 0em 5em 5em 5em;
+    display: flex;
+    justify-content:flex-end;
+    padding: 2em 7em 2em 7em;
+    gap: 2em;
+}
+
+form{
+    background-color: rgb(201, 192, 192);
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    padding: 2em 8em 2em 8em;
+    margin: 0em 3em 0em 3em;
+}
+
+form input{
+    border-radius: 2em;
+    border: 1em;
+    padding-left: 1em;
+}
+
+form button{
+    border-radius: 6em;
+    border: 1px solid rgb(103, 76, 76);
+    background-color: rgb(219, 193, 199);
+    height: 20px;
+    cursor:pointer;
+}
+
+.boxTitulo{
+    background-image: url("../assets/img/img1.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    margin: 5em 5em 0em 5em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;      
+    padding: 2em;
+}
+.boxTitulo h1{
+    font-size: 3em;
+    color: rgb(168, 79, 80);
+    
+}
+
+.boxTitulo h3 {
+    font-size: 1.2em;
+    color: rgb(151, 117, 117);
+}
+
+.boxContenido{
+    background-color: white;
+    margin: 0em 5em 0em 5em;
+    padding: 3em
+}
+
+.subtitulo{
+    margin: auto;
+    width: 70vw;
+    padding: 1em 0em 0.5em 0em;
+    font-weight: 700;
+    color: rgb(205, 145, 146);
+}
+
+.contenedorTecnologias {
+    margin: 2em 7em 2em 7em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tecnologia{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tecnologia img{
+    width: 10vw;
+}
+
+.tecnologia img:hover{
+    transform: scale(1.15);
+}
+
+.iconoRedes{
+    width: 2vw; 
+}
+
+.contenedorTarjetas{
+    background-color:rgb(201, 192, 192);
+    padding: 1em 7em 1em 7em;
+    margin: 1em 3em 0em 3em;
+    display: flex;
+    align-items:center;
+    flex-flow: column; 
+}
+
+.tarjeta{
+    max-width: 300px;
+    background-color: rgb(135, 77, 91);
+    min-height: 200px;
+    margin: 2em 1em 1em 1em;
+    border-radius: 0.5em;
+    display: flex;
+    align-items:center;
+    flex-flow: column; 
+    padding: 1em;
+    gap: 0.5em;
+}
+
+.tarjeta:hover{
+    box-shadow: 0 0 10px gray;
+}
+
+.tarjeta h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.tarjeta p{
+    font-size: 1.2em;
+    color: rgb(19, 18, 18);
+    width: 100%;
+    text-align: justify;
+}
+
+.tarjeta button{
+    border: 1px solid rgb(103, 76, 76);
+    background-color: rgb(219, 193, 199);
+    height: 25px;
+    width: 50%;
+    cursor:pointer;
+}
+
+.tarjeta button:hover{
+    box-shadow: 0 0 5px rgb(40, 40, 40);
+}
+
+#descripcion{
+    height: 50px;
+    border-radius: 1em;
+}
+
+
+
+
+
+
+
+
+
+

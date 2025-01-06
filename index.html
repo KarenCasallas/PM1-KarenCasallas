@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto M1</title>
+    <link rel="stylesheet" type="text/css" href="styles\reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles\styles.css" />
+</head>
+
+<body>
+    <header class="boxTitulo">
+        <h1>Karen Casallas</h1>
+        <h3>"mamá,arquitecta,aspirante programadora"</h3>
+    </header>
+
+    <main>
+        <div class="boxContenido">
+            <section>
+                <h2 class="subtitulo">Te compartiré un poco sobre mi...</h2>
+                <p>Soy de Bogotá, Colombia, tengo una hermosa familia, mi hija, que es mi mayor inspiración. Originalmente estudié arquitectura, una carrera en la que, lamentablemente, no logré prosperar como esperaba. Sin embargo, esto me llevó a buscar nuevas alternativas profesionales, lo que me condujo a Henry. Estoy muy feliz de estar aquí, llena de expectativas y con muchas ganas de aprender y crecer en este nuevo camino.</p>   
+            </section>
+
+            <section>
+                <h2 class="subtitulo">Mis tecnologias favoritas</h2>
+                
+                <div class="contenedorTecnologias">
+                    <div class="tecnologia">
+                        <img src="./assets/img/js.png" alt="javascript"/>
+                        <h4>JAVASCRIPT</h4>    
+                    </div>
+                    <div class="tecnologia"> 
+                        <img src="./assets/img/css.png" alt="javascript"/>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="tecnologia">
+                        <img src="./assets/img/html.png" alt="javascript"/>
+                        <h4>HTML</h4>
+                    </div>
+            </section>
+
+            <section>
+                <h2 class="subtitulo">Mis actividades favoritas</h2>
+                <form onsubmit = "return false;">
+                    <input type="text" id="title" placeholder="titulo de actividad"/>
+                    <input type="text" id="descripcion" placeholder="descripcion"/>
+                    <input type="text" id="imgUrl" placeholder="link de la imagen"/>
+                    <button id="crear">Crear Actividad</button>
+                </form>
+
+                <div class="contenedorTarjetas">
+                <!--seccion para tarjetas actividades-->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/">
+            <img src="./assets/img/instagram.png" alt="instagram" class="iconoRedes"/>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com/?locale=es_LA">
+            <img src="./assets/img/facebook.png" alt="facebook" class="iconoRedes"/>
+            </a>
+        </div>
+
+        <div>
+            <a href=https://web.whatsapp.com>
+            <img src="./assets/img/whatsapp.png" alt="whatsapp" class="iconoRedes"/>
+            </a>
+        </div>
+    </footer>
+    <script src="./scripts/modelos.js"></script>
+    <script src="./scripts/controladores.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
